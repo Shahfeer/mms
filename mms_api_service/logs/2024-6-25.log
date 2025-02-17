@@ -1,0 +1,5 @@
+2024-6-25 12:53:12 [registration query parameters] : undefined , undefined , undefined , undefined , undefined , undefined
+2024-6-25 12:53:12 [indexFaces parameters] : {"DetectionAttributes":["ALL"],"CollectionId":"face_recognition","Image":{"Bytes":null}}
+258609348548
+2024-6-25 12:53:12 [ failed response] : ConfigError: Missing region in config
+res.send to client
