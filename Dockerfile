@@ -40,5 +40,4 @@ RUN if [ -f package.json ]; then npm install; fi
 EXPOSE 80
 
 # Start Apache
-CMD ["apache2-foreground"]
-
+CMD ["apache2-foreground"]                           

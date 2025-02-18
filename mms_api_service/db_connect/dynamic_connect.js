@@ -10,9 +10,9 @@ const env = process.env;
 
 async function query(sql, params, db_name) {
   var db =  { 
-     host: env.DB_HOST || 'mysql-mms',
-     user: env.DB_USER || 'admin',
-     password: env.DB_PASSWORD || 'Password@123',
+     host: env.DB_HOST || 'localhost',
+     user: env.DB_USER || 'root',
+     password: env.DB_PASSWORD || '',
      
   }
   db['database'] = db_name;
