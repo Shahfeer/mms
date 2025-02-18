@@ -1,5 +1,0 @@
-mms_api_service/*.tar.gz filter=lfs diff=lfs merge=lfs -text
-mms_api_service/*.mp4 filter=lfs diff=lfs merge=lfs -text
-mms_api_service/*.zip filter=lfs diff=lfs merge=lfs -text
-mms_api_service/* filter=lfs diff=lfs merge=lfs -text
-mms_api_service/node_modules/puppeteer/.local-chromium/linux-982053/chrome-linux/chrome filter=lfs diff=lfs merge=lfs -text
