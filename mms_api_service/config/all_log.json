@@ -1,6 +1,0 @@
-{
-    "logConfig": {
-        "logFolder": ".//complete_logs//",
-        "logFile": "%DATE%.log"
-    }
-}
