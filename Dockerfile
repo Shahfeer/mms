@@ -36,7 +36,7 @@ RUN curl -fsSL https://deb.nodesource.com/setup_18.x | bash - \
 # Install Node.js dependencies if package.json exists
 RUN if [ -f package.json ]; then npm install; fi
 
-# Expose the Apache port
+## Expose the Apache port
 EXPOSE 80
 
 # Start Apache

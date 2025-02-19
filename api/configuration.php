@@ -7,7 +7,7 @@ header('Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS');
 header('Access-Control-Allow-Headers: X-Requested-With, Content-Type, Accept');
 
 // Database Credentials
-$servername = "mysql-mms";
+$servername = "mysql-container";
 $username = "admin";
 $password = "Password@123";
 $dbname = "mms"; 
