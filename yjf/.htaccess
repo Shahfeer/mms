@@ -1,0 +1,17 @@
+# Enable URL rewriting
+RewriteEngine On
+
+# Redirect all non-existent files to index.html (for SPA routing)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /index.html [QSA,L]
+
+# Enable CORS (Allow requests from any origin)
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+    Header set Access-Control-Allow-Methods "GET, POST, OPTIONS"
+    Header set Access-Control-Allow-Headers "Origin, Content-Type, Accept, Authorization"
+</IfModule>
+
+# Prevent directory listing
+Options -Indexes

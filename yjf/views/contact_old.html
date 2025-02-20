@@ -1,0 +1,35 @@
+<div class="animated fadeIn">
+<div class="row">
+    <div class="col-md-12 col-lg-10 mt-2">
+        <div class="card " style="max-width:800px;">
+            <div class="card-header">
+                Face Collection : Registered faces
+            </div>
+            <div class="card-body p-3">
+                <div class="row">
+                    <div class="col-md-3 col-lg-3 mt-2" ng-repeat="single_meta in metadata ">
+                        <div class="card">
+                            <img ng-src="{{single_meta.image}}" class="card-img-top " alt="{{single_meta.image.S}}">
+                            <div class="card-body p-3">
+                                <h5 class="card-text text-primary"> {{single_meta.name}}</h5>
+                                <p class="card-text"> Face Id : {{single_meta.faceId}}</p>
+                            </div>
+                            <div class="card-block p-b-0">
+                                <div class="btn-group  mt-2 float-right">
+                                    <button type="button" ng-click="delete_photo(single_meta.key,single_meta.faceId)" class="btn btn-primary">
+                                        <i class="icon-trash"></i> Remove
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+</div>
+

@@ -1,0 +1,21 @@
+{
+  "name": "rekognition-demo",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://git-codecommit.ap-northeast-2.amazonaws.com/v1/repos/rekognition-demo"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "node-rtsp-stream": "^0.0.9",
+    "nodemon": "^2.0.15",
+    "npm-watch": "^0.11.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "main": "server.js"
+}
