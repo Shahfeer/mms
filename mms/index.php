@@ -133,7 +133,7 @@ if ($http_referer == '' || $newPageName == 'index' || $newPageName == 'logout' |
                 <input type="hidden" class="form-control" name='call_function' id='call_function'
 																	value='signin' />
                                   <input type="submit" name="submit" id="submit" tabindex="3" value="Sign in"
-																	class="btn btn-success d-grid w-100">
+																	class="btn btn-info d-grid w-100">
                   <!-- <button class="btn btn-primary d-grid w-100" type="submit">Sign in</button> -->
 
                 </div>
